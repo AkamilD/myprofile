@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kamil Ajagbe — Statistician & Research Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Source+Serif+4:wght@600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#personal" class="nav__brand">KD</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#personal">Personal</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#references">References</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== PERSONAL ===== -->
+  <section id="personal" class="page page--hero">
+    <div class="hero">
+      <div class="hero__photo">
+        <img src="Kamil Passport.png" alt="Kamil Ajagbe"
+             onerror="this.style.display='none';this.parentNode.classList.add('hero__photo--fallback');this.parentNode.textContent='KA';" />
+      </div>
+      <div class="hero__text">
+        <p class="eyebrow">Statistician · Research Analyst · Data Scientist</p>
+        <h1>Kamil Ajagbe</h1>
+        <p class="lede">
+          MPhil-trained statistician with 7+ years of applied experience in Bayesian inference,
+          causal inference, and large-scale survey analysis. I turn complex data into
+          defensible policy and research evidence.
+        </p>
+        <div class="hero__cta">
+          <a href="#experience" class="btn btn--primary">View Experience</a>
+          <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+        </div>
+        <ul class="hero__meta">
+          <li><span>Location</span> Abuja, Nigeria</li>
+          <li><span>Focus</span> Bayesian & Causal Inference</li>
+          <li><span>Tools</span> R · STATA · SPSS · Power BI</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="page">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+
+      <article class="card">
+        <header class="card__head">
+          <h3>Master of Philosophy (MPhil) in Statistics</h3>
+          <span class="card__date">2020 – 2022</span>
+        </header>
+        <p class="card__org">Nasarawa State University, Nigeria</p>
+        <p>Research focus: Advanced statistical methodology and applied mathematical statistics.</p>
+        <p class="card__label">Relevant Coursework</p>
+        <p>Mathematical Statistics · Bayesian Inference & Hierarchical Modeling · Causal Inference & Experimental Design · Survival Analysis & Time-to-Event Modeling · Statistical Computing & Methodological Development</p>
+      </article>
+
+      <article class="card">
+        <header class="card__head">
+          <h3>Master of Science (MSc) in Statistics</h3>
+          <span class="card__date">2013 – 2016</span>
+        </header>
+        <p class="card__org">University of Ilorin, Nigeria</p>
+        <p><strong>Thesis:</strong> Estimation problems in advanced statistical distributions and methodological development.</p>
+        <p class="card__label">Relevant Coursework</p>
+        <p>Advanced Regression & Multivariate Analysis · Survey Sampling & Experimental Design · Mathematical Statistics · Statistical Inference · Bayesian Methods · Statistical Computing & Data Management</p>
+      </article>
+
+      <article class="card">
+        <header class="card__head">
+          <h3>Bachelor of Science (BSc) in Statistics</h3>
+          <span class="card__date">2008 – 2012</span>
+        </header>
+        <p class="card__org">University of Ilorin, Nigeria</p>
+        <p class="card__label">Relevant Coursework</p>
+        <p>Probability Theory · Mathematical Statistics · Linear Models · Statistical Inference · Applied Data Analysis</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="page page--alt">
+    <div class="container">
+      <h2 class="section-title">Work Experience</h2>
+
+      <!-- NOTE: CV lists 2022–Present here, but Teaching 2021–2025 overlaps. Confirm dates. -->
+      <article class="timeline-item">
+        <div class="timeline-item__meta">
+          <span class="timeline-item__date">2022 – Present</span>
+          <span class="timeline-item__loc">Abuja, Nigeria</span>
+        </div>
+        <div class="timeline-item__body">
+          <h3>Senior Research Analyst</h3>
+          <p class="card__org">Datametrics Associate Limited</p>
+          <ul>
+            <li>Designed and implemented regression, generalized linear, and Bayesian hierarchical models for large-scale survey and experimental studies using R, STATA, and SPSS — improving estimation precision and overall data quality by <strong>22%</strong>.</li>
+            <li>Conducted advanced inferential analyses under frequentist and Bayesian frameworks; performed model diagnostics and posterior validation with R (<code>brms</code>, <code>rstan</code>) and STATA.</li>
+            <li>Developed weighting and variance estimation procedures for stratified and multi-stage survey designs using R (<code>survey</code>) and STATA — reducing sampling bias and improving representativeness by over <strong>20%</strong>.</li>
+            <li>Applied causal inference methods (Difference-in-Differences, regression adjustment) in impact evaluation studies using R and STATA.</li>
+            <li>Standardized reproducible analytical workflows and documentation using R and LaTeX, minimizing replication errors across research teams.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <div class="timeline-item__meta">
+          <span class="timeline-item__date">2018 – 2022</span>
+          <span class="timeline-item__loc">Abuja, Nigeria</span>
+        </div>
+        <div class="timeline-item__body">
+          <h3>Research Analyst</h3>
+          <p class="card__org">Datametrics Associate Limited</p>
+          <ul>
+            <li>Supported end-to-end quantitative research projects; programmed questionnaires with ODK / Kobo Toolbox and conducted analysis in STATA, SPSS, and R.</li>
+            <li>Performed large-scale data cleaning, validation, and dataset merging using R, STATA, and Excel — improving reporting accuracy and internal consistency by ~<strong>45%</strong>.</li>
+            <li>Produced client-ready regression tables, dashboards, and visualizations using R (<code>ggplot2</code>), Excel, and Power BI.</li>
+            <li>Coordinated with M&E and field teams to align statistical design with operational requirements.</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== PUBLICATIONS ===== -->
+  <section id="publications" class="page">
+    <div class="container">
+      <h2 class="section-title">Publications</h2>
+
+      <article class="pub">
+        <p class="pub__cite">
+          Ipadela, O. B., <strong>Ajagbe, K. D.</strong>, et al. (2023). Bayesian Method for
+          Difference-in-Differences Estimation of Impact in Experimental Interventions with Count
+          Outcome. <em>International Journal of Statistics and Applications</em>, 13(1), 1–12.
+        </p>
+        <p class="pub__contrib"><strong>Contribution:</strong> Development and implementation of a Bayesian inferential framework for causal impact estimation in count-data settings.</p>
+        <a class="pub__link" href="https://www.researchgate.net/publication/380540320_Bayesian_Method_for_Difference_in_Differences_Estimation_of_Impact_in_Experimental_Interventions_with_Count_Outcome" target="_blank" rel="noopener">Read PDF →</a>
+      </article>
+
+      <article class="pub">
+        <p class="pub__cite">
+          Oyeyemi, G. M., &amp; <strong>Ajagbe, K. D.</strong> (2016). Estimation of
+          <em>P[Y &lt; X]</em> for Bivariate Exponentiated Gamma Distribution.
+          <em>Pacific Journal of Science and Technology</em>, 17(1), 79–88.
+        </p>
+        <p class="pub__contrib"><strong>Contribution:</strong> Theoretical derivation and estimation procedures for probability functions within non-standard bivariate distributions.</p>
+        <a class="pub__link" href="https://www.researchgate.net/publication/400788707_Estimation_of_PYX_for_Bivariate_Exponentiated_Gamma_Distribution" target="_blank" rel="noopener">Read PDF →</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="page page--alt">
+    <div class="container">
+      <h2 class="section-title">Technical Expertise</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Statistical &amp; Mathematical Methods</h3>
+          <ul>
+            <li>Bayesian Inference</li>
+            <li>Causal Inference &amp; Difference-in-Differences</li>
+            <li>Survival Analysis</li>
+            <li>Experimental Design</li>
+            <li>Distribution Theory</li>
+            <li>Multivariate Analysis</li>
+            <li>Survey Sampling Theory</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Programming &amp; Software</h3>
+          <ul>
+            <li>R (advanced statistical modeling)</li>
+            <li>STATA</li>
+            <li>SPSS</li>
+            <li>Advanced Microsoft Excel</li>
+            <li>LaTeX (scientific writing)</li>
+            <li>Power BI</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TEACHING ===== -->
+  <section id="teaching" class="page">
+    <div class="container">
+      <h2 class="section-title">Teaching Experience</h2>
+
+      <!-- NOTE: CV lists 2021–2025; overlaps with Senior Research Analyst. Confirm. -->
+      <article class="card">
+        <header class="card__head">
+          <h3>Mathematics Teacher</h3>
+          <span class="card__date">2021 – 2025</span>
+        </header>
+        <p class="card__org">Capital Science Academy, Abuja, Nigeria</p>
+        <ul>
+          <li>Taught core mathematical subjects including algebra, advanced secondary mathematics, and problem-solving techniques.</li>
+          <li>Developed structured learning modules to enhance mathematical reasoning.</li>
+          <li>Guided students in analytical thinking and proof-based problem solving.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <header class="card__head">
+          <h3>Mathematics Teacher</h3>
+          <span class="card__date">2016 – 2018</span>
+        </header>
+        <p class="card__org">CTY Secondary School, Ibadan, Nigeria</p>
+        <ul>
+          <li>Delivered instruction in advanced mathematics and technical drawing.</li>
+          <li>Mentored students in mathematical modeling and examination preparation.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== REFERENCES ===== -->
+  <section id="references" class="page page--alt">
+    <div class="container">
+      <h2 class="section-title">References</h2>
+      <div class="ref-grid">
+        <div class="ref-card">
+          <h3>Prof. Wahab B. Yahya</h3>
+          <p>Department of Statistics, University of Ilorin, Ilorin, Nigeria</p>
+          <p><a href="mailto:wbyahya@unilorin.edu.ng">wbyahya@unilorin.edu.ng</a></p>
+          <p><a href="tel:+2347030578626">+234 703 057 8626</a></p>
+        </div>
+        <div class="ref-card">
+          <h3>Dr. Jeleel Adebisi Adebisi</h3>
+          <p>Department of Material and Metallurgical Engineering, University of Ilorin, Nigeria</p>
+          <p><a href="mailto:adebisi.ia@unilorin.edu.ng">adebisi.ia@unilorin.edu.ng</a></p>
+          <p><a href="tel:+2348030422330">+234 803 042 2330</a></p>
+        </div>
+        <div class="ref-card">
+          <h3>Dr. Bamigboye</h3>
+          <p>Department of Geology and Mineral Science, Kwara State University, Malete, Nigeria</p>
+          <p><a href="mailto:Olufemi.bamigboye@kwasu.edu.ng">Olufemi.bamigboye@kwasu.edu.ng</a></p>
+          <p><a href="tel:+2348036077451">+234 803 607 7451</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / FOOTER ===== -->
+  <footer id="contact" class="page page--contact">
+    <div class="container">
+      <h2 class="section-title">Get in Touch</h2>
+      <p class="contact__lede">Open to research collaborations, statistical consulting, and data-driven impact work.</p>
+      <div class="contact__links">
+        <a href="mailto:ajagbekad@gmail.com" class="btn btn--primary">ajagbekad@gmail.com</a>
+        <a href="https://www.linkedin.com/in/kamil-ajagbe-" class="btn btn--ghost" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <p class="copyright">© <span id="year"></span> Kamil Ajagbe</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
